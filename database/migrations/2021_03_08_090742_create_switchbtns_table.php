@@ -15,6 +15,7 @@ class CreateSwitchbtnsTable extends Migration
     {
         Schema::create('switchbtns', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('formSwitch',5)->default('OFF');
             $table->timestamps();
         });
     }
