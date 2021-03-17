@@ -17,7 +17,7 @@
                 height: 100px;
                 width: 100px;
                 border-radius: 50%;
-                border: 1px solid grey;
+                border: 1px solid rgb(218, 10, 10);
                 padding: 3px;
             " class="img-fluid"
                       src="{{asset('public/uploads/image/'.Auth::user()->image)}}"
